@@ -46,7 +46,7 @@ input {
 }
 .card {
   background-color: rgba(255, 255, 255, 0.1);
-  color: #474a41;
+  color:whitesmoke;
   backdrop-filter: blur(10px);
   max-width: 80vw;
   min-height: 40vh;
@@ -59,18 +59,20 @@ input {
   justify-content: space-between;
 }
 b {
-  color: #e86e1c;
+color: rgb(237, 23, 112);
+  
   display: inline-block;
 }
 .msg {
   text-align: center;
   color: rgb(76, 0, 255);
 }
-.center,.not-found {
+.center,.not-found,.log-prompt {
   text-align: center;
   width: 100%;
+
 }
-.not-found{
+.not-found,.log-prompt{
 color: rgb(237, 23, 112);
 }
 audio {

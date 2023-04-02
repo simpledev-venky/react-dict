@@ -54,7 +54,7 @@ const Dict = () => {
       <>
       <h2>Search to Empower yourself with knowledge.</h2>
       <h2 className='quote'> "knowledge Is Divine"</h2>
-      {!user && ( <h2 className='center'>Log-in to Search.</h2>)}
+      {!user && ( <h2 className='log-prompt'>Log-in to Search.</h2>)}
        </>
        )}
 
